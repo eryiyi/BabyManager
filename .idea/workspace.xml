@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f841a29c-60a4-4bcc-b2a0-afc96563abff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/model/Children.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/mvc/admin/ChildrenController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/dao/ChildrenDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/query/ChildrenQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/service/account/ChildrenService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/query/MemberQuery.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/MySQL1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com/liangxun/dao/childrenMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/views/children/list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="F:\workspace\0114\UniversityManager\src\main\java\com\liangxunwang\unimanager\mvc\vo\AdvertVO.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/model/Member.java" afterPath="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/model/Member.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/dao/MemberDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/dao/MemberDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/service/account/MemberService.java" afterPath="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/service/account/MemberService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/mvc/admin/RoleController.java" afterPath="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/mvc/admin/RoleController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UniversityManager.iml" afterPath="$PROJECT_DIR$/UniversityManager.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/role/add.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/role/add.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/views/piao/addpiao.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/role/list.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/role/list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/liangxun/dao/memberMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/liangxun/dao/memberMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="321317fc-b3f3-4a87-85de-831786f68385" name="New changelist" comment="" />
     <ignored path="UniversityManager.iws" />
@@ -74,74 +56,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="memberMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/liangxun/dao/memberMapper.xml">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="513">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state vertical-scroll-proportion="-12.76" vertical-offset="2189" max-vertical-offset="4655">
+              <caret line="132" column="106" selection-start-line="132" selection-start-column="106" selection-end-line="132" selection-end-column="106" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="childrenMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/liangxun/dao/childrenMapper.xml">
+      <file leaf-file-name="addpiao.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/piao/addpiao.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="665">
-              <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-              <folding>
-                <marker date="1452846763945" expanded="true" signature="851:986" placeholder="INSERT INTO ..." />
-                <marker date="1452846763945" expanded="true" signature="1058:1097" placeholder="DELETE FROM ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChildrenController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/mvc/admin/ChildrenController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5811024" vertical-offset="315" max-vertical-offset="950">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/children/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.28" vertical-offset="1311" max-vertical-offset="1995">
-              <caret line="66" column="103" selection-start-line="66" selection-start-column="103" selection-end-line="66" selection-end-column="103" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberQuery.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/query/MemberQuery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChildrenQuery.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/query/ChildrenQuery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="741">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/role/add.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.56" vertical-offset="1777" max-vertical-offset="2489">
-              <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.64991623" vertical-offset="2899" max-vertical-offset="3819">
+              <caret line="173" column="4" selection-start-line="173" selection-start-column="4" selection-end-line="173" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -155,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/theme/addTheme.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/util/DateUtil.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/theme/listTheme.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/service/member/PkThemService.java" />
@@ -195,7 +123,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/service/account/MemberService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/dao/MemberDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/liangxun/dao/memberMapper.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/mvc/admin/RoleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/model/Member.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/model/Children.java" />
@@ -206,6 +133,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/liangxun/dao/childrenMapper.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/children/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/mvc/admin/ChildrenController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/piao/addpiao.jsp" />
       </list>
     </option>
   </component>
@@ -355,6 +284,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="role" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UniversityManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UniversityManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -826,11 +781,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\0114\UniversityManager\web\WEB-INF\views\piao" />
       <recent name="F:\workspace\0114\UniversityManager\web\WEB-INF\views\children" />
       <recent name="F:\workspace\0114\UniversityManager\src\main\resources\com\liangxun\dao" />
       <recent name="F:\workspace\0114\UniversityManager\libs" />
       <recent name="F:\workspace\0114\UniversityManager\web\WEB-INF\views" />
-      <recent name="F:\workspace\0114\UniversityManager\web\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\workspace\0810\UniversityManager\web\css" />
@@ -1278,7 +1233,7 @@
       <workItem from="1452778288714" duration="9000" />
       <workItem from="1452778488191" duration="4273000" />
       <workItem from="1452810292433" duration="1045000" />
-      <workItem from="1452811358546" duration="20905000" />
+      <workItem from="1452811358546" duration="22277000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1448243642727</created>
@@ -1310,11 +1265,17 @@
       <option name="project" value="LOCAL" />
       <updated>1452820724143</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="初始化">
+      <created>1452847045808</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1452847045808</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="335776000" />
+    <option name="totallyTimeSpent" value="337148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="822" extended-state="6" />
@@ -1333,7 +1294,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4201807" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32831326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28879312" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1445,14 +1406,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1993007" vertical-offset="0" max-vertical-offset="13281">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/util/TagUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24918033" vertical-offset="0" max-vertical-offset="931">
@@ -1758,17 +1711,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.68" vertical-offset="2189" max-vertical-offset="4655">
-          <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/query/ChildrenQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="741">
+        <state vertical-scroll-proportion="0.32913387" vertical-offset="0" max-vertical-offset="741">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
@@ -1808,7 +1753,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liangxunwang/unimanager/query/MemberQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+        <state vertical-scroll-proportion="0.1496063" vertical-offset="0" max-vertical-offset="635">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
@@ -1840,7 +1785,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/role/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.56" vertical-offset="1777" max-vertical-offset="2489">
+        <state vertical-scroll-proportion="0.6515913" vertical-offset="1777" max-vertical-offset="2489">
           <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
           <folding />
         </state>
@@ -1848,7 +1793,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/children/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.28" vertical-offset="1311" max-vertical-offset="1995">
+        <state vertical-scroll-proportion="-0.09344263" vertical-offset="1311" max-vertical-offset="1995">
           <caret line="66" column="103" selection-start-line="66" selection-start-column="103" selection-end-line="66" selection-end-column="103" />
           <folding />
         </state>
@@ -1867,8 +1812,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="665">
           <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding>
-            <marker date="1452846763945" expanded="true" signature="851:986" placeholder="INSERT INTO ..." />
-            <marker date="1452846763945" expanded="true" signature="1058:1097" placeholder="DELETE FROM ..." />
+            <marker date="1452846763945" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1452846763945" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -1877,6 +1822,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5811024" vertical-offset="315" max-vertical-offset="950">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.76" vertical-offset="2189" max-vertical-offset="4655">
+          <caret line="132" column="106" selection-start-line="132" selection-start-column="106" selection-end-line="132" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/piao/addpiao.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64991623" vertical-offset="2899" max-vertical-offset="3819">
+          <caret line="173" column="4" selection-start-line="173" selection-start-column="4" selection-end-line="173" selection-end-column="4" />
           <folding />
         </state>
       </provider>
