@@ -2,6 +2,7 @@ package com.liangxunwang.unimanager.mvc.admin;
 
 import com.liangxunwang.unimanager.model.Admin;
 import com.liangxunwang.unimanager.model.Member;
+import com.liangxunwang.unimanager.query.MemberQuery;
 import com.liangxunwang.unimanager.service.ExecuteService;
 import com.liangxunwang.unimanager.service.ListService;
 import com.liangxunwang.unimanager.service.ServiceException;
@@ -31,14 +32,16 @@ public class RoleController extends ControllerConstants {
     private ListService memberService;
 
     @RequestMapping("list")
-    public String list(ModelMap map, String name){
-        List<Member> list = (List<Member>) memberService.list(name);
+    public String list(ModelMap map, MemberQuery query){
+        List<Member> list = (List<Member>) memberService.list(query);
         map.put("list", list);
         return "/role/list";
     }
 
     @RequestMapping("add")
-    public String add(){
+    public String add(ModelMap map, MemberQuery query){
+        List<Member> list = (List<Member>) memberService.list(query);
+        map.put("list", list);
         return "/role/add";
     }
 

@@ -15,8 +15,6 @@ public interface MemberDao {
 
     /**
      * 查询所有的萌宝信息
-     * @param name
-     * @return
      */
-    List<Member> listMemberByName(String name);
+    List<Member> listMemberByName(Map<String,Object> map);
 }

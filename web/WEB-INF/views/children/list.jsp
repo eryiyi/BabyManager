@@ -49,7 +49,6 @@
           <tr>
             <th>萌宝ID</th>
             <th>萌宝名称</th>
-            <th>电话</th>
             <th>得票数</th>
             <th>取消票数</th>
             <th>人气数</th>
@@ -59,14 +58,13 @@
           <tbody>
           <c:forEach items="${list}" var="e" varStatus="st">
             <tr>
-              <td>${e.id}</td>
-              <td>${e.nickname}</td>
-              <td>${e.phone}</td>
+              <td>${e.cid}</td>
+              <td>${e.name}</td>
               <td>${e.num}</td>
               <td>${e.dnum}</td>
               <td>${e.sharenum}</td>
               <td>
-                <a class="btn btn-default btn-sm" href="javascript:void (0)" onclick="deleteRole('${e.id}')" role="button">删除</a>
+                <a class="btn btn-default btn-sm" href="javascript:void (0)" onclick="deleteRole('${e.cid}')" role="button">删除</a>
               </td>
             </tr>
           </c:forEach>
@@ -80,14 +78,14 @@
   function deleteRole(_id){
     if(confirm("确定要删除该萌宝么？")){
       $.ajax({
-        url:"/role/delete.do",
-        data:{"id":_id},
+        url:"/children/delete.do",
+        data:{"cid":_id},
         type:"POST",
         success:function(_data){
           var data = $.parseJSON(_data);
           if(data.success){
             alert("删除成功");
-            window.location.href = "#module=role/list&page=1";
+            window.location.href = "#module=children/list";
           }else{
             var _case = {1:"删除失败"};
             alert(_case[data.code])

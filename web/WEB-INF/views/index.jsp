@@ -120,7 +120,7 @@
 						</a>
 						<ul class="dropdown-menu">
 								<li><a href="javascript:void(0);" onclick="toPage('/role/add','')">添加宝宝</a></li>
-								<li><a href="javascript:void(0);" onclick="toPage('/role/list','')">宝宝列表</a></li>
+								<li><a href="javascript:void(0);" onclick="toPage('/children/list','')">宝宝列表</a></li>
 						</ul>
 					</li>
 

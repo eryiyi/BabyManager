@@ -3,36 +3,27 @@ package com.liangxunwang.unimanager.model;
 /**
  * Created by liuzwei on 2015/1/29.
  */
-public class Member {
-    private String id;
-    private String phone;
-    private String nickname;
+public class Children {
+    private String cid;
+    private String name;
     private String num;
     private String dnum;
     private String sharenum;
 
-    public String getPhone() {
-        return phone;
+    public String getCid() {
+        return cid;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setCid(String cid) {
+        this.cid = cid;
     }
 
-    public String getId() {
-        return id;
+    public String getName() {
+        return name;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getNickname() {
-        return nickname;
-    }
-
-    public void setNickname(String nickname) {
-        this.nickname = nickname;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getNum() {
