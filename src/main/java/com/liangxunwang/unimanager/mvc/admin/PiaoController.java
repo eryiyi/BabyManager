@@ -19,6 +19,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.awt.*;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -130,6 +132,9 @@ public class PiaoController extends ControllerConstants {
                                 }
                             }
                         }
+                        Date now = new Date();
+                        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//可以方便地修改日期格式
+                        System.out.println("执行：----第" + String.valueOf(i+1)+"次----时间："+dateFormat.format(now));
                         try {
                             Thread.sleep(Integer.parseInt(datetime)*60*1000);//延迟
                         } catch (InterruptedException e) {
