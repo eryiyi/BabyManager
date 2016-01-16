@@ -14,8 +14,9 @@
     <select id="lists" resultMap="my_child">
         SELECT * from mine_child WHERE 1=1
         <if test="name != null and name != ''">
-            AND id = #{name}
+            AND cid = #{name}
         </if>
+        ORDER  by cid DESC
     </select>
 
     <insert id="save" parameterType="com.liangxunwang.unimanager.model.Children">
@@ -26,5 +27,10 @@
     <delete id="delete" parameterType="String">
         DELETE FROM mine_child WHERE CID=#{cid}
     </delete>
+
+    <update id="update" parameterType="com.liangxunwang.unimanager.model.Children">
+        UPDATE mine_child SET num=#{num}, dnum=#{dnum}, sharenum=#{sharenum}  WHERE cid=#{cid}
+    </update>
+
 
 </mapper>

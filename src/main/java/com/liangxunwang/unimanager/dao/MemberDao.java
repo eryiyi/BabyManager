@@ -17,4 +17,7 @@ public interface MemberDao {
      * 查询所有的萌宝信息
      */
     List<Member> listMemberByName(Map<String,Object> map);
+
+    //更新宝宝数据---最终一步
+    void update(Member member);
 }

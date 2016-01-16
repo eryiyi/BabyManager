@@ -99,7 +99,7 @@
 
           <div class="form-group">
             <div class="col-sm-9 col-sm-offset-3">
-              <button type="button" class="btn btn-primary" onclick="saveP()">提交</button>
+              <button type="button" class="btn btn-primary" onclick="saveP()">执行</button>
             </div>
           </div>
         </form>
@@ -175,17 +175,16 @@
     $.ajax({
       cache: true,
       type: "POST",
-      url:"/addLevel.do",
-      data:{"levelName":levelName, "levelStart":levelStart,"levelEnd":levelEnd },
+      url:"/piaoadd/save.do",
+      data:{"addone":add_one, "addtwo":add_two,"delone":del_one, "deltwo":del_two,"datetime":date_time,"addshareone":level_one,"addsharetwo":level_two,"handnum":num},
       async: false,
       success: function(_data) {
         var data = $.parseJSON(_data);
         if(data.success){
-          alert("添加成功");
-            window.location.href="#module=listLevel"
+          alert("执行成功");
+          window.location.href = "#module=piaoadd/subdo";
         }else{
-          var _case = {1:"等级名称不能为空", 2:"请输入正确的起始分数", 3:"请输入正确的结束分数", 4:"起始分数不能大于结束分数", 5:"保存失败"};
-          alert(_case[data.code])
+          alert("执行失败，请检查")
         }
       }
     });

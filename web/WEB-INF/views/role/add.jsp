@@ -111,7 +111,7 @@
           var data = $.parseJSON(_data);
           if(data.success){
             alert("添加成功");
-            window.location.href = "#module=children/list";
+//            window.location.href = "#module=children/list";
           }else{
             var _case = {1:"添加失败"};
             alert(_case[data.code])

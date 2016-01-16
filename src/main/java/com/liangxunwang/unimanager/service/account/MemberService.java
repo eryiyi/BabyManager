@@ -6,6 +6,7 @@ import com.liangxunwang.unimanager.mvc.vo.MemberVO;
 import com.liangxunwang.unimanager.query.MemberQuery;
 import com.liangxunwang.unimanager.service.ListService;
 import com.liangxunwang.unimanager.service.ServiceException;
+import com.liangxunwang.unimanager.service.UpdateService;
 import com.liangxunwang.unimanager.util.StringUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -20,7 +21,7 @@ import java.util.Map;
  * Created by liuzwei on 2015/3/3.
  */
 @Service("memberService")
-public class MemberService implements ListService {
+public class MemberService implements ListService , UpdateService{
     @Autowired
     @Qualifier("memberDao")
     private MemberDao memberDao;
@@ -39,4 +40,14 @@ public class MemberService implements ListService {
         List<Member> lists = memberDao.listMemberByName(map);
         return lists;
     }
+
+    @Override
+    public Object update(Object object) {
+        if (object instanceof Member){
+            Member member = (Member) object;
+            memberDao.update(member);
+        }
+        return null;
+    }
+
 }

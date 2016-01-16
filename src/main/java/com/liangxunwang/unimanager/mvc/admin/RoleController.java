@@ -45,5 +45,9 @@ public class RoleController extends ControllerConstants {
         return "/role/add";
     }
 
+    @RequestMapping("addPiao")
+    public String addPiao(ModelMap map){
+        return "/piao/addpiao";
+    }
 
 }

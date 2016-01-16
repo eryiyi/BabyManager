@@ -23,4 +23,7 @@ public interface ChildrenDao {
 
     //删除我们自己的宝宝
     void delete(String cid);
+
+    //更新宝宝数据---最终一步
+    void update(Children children);
 }

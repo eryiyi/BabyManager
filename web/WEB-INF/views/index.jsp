@@ -130,7 +130,7 @@
 							<span class="hidden-xs">自动加票</span>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a href="javascript:void(0);" onclick="toPage('ajax/listMember','1')">规则设置</a></li>
+							<li><a href="javascript:void(0);" onclick="toPage('role/addPiao','1')">规则设置</a></li>
 						</ul>
 					</li>
 

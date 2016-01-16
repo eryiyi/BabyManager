@@ -5,10 +5,7 @@ import com.liangxunwang.unimanager.dao.MemberDao;
 import com.liangxunwang.unimanager.model.Children;
 import com.liangxunwang.unimanager.model.Member;
 import com.liangxunwang.unimanager.query.MemberQuery;
-import com.liangxunwang.unimanager.service.DeleteService;
-import com.liangxunwang.unimanager.service.ListService;
-import com.liangxunwang.unimanager.service.SaveService;
-import com.liangxunwang.unimanager.service.ServiceException;
+import com.liangxunwang.unimanager.service.*;
 import com.liangxunwang.unimanager.util.Constants;
 import com.liangxunwang.unimanager.util.DateUtil;
 import com.liangxunwang.unimanager.util.StringUtil;
@@ -25,7 +22,7 @@ import java.util.Map;
  * Created by liuzwei on 2015/3/3.
  */
 @Service("childrenService")
-public class ChildrenService implements ListService ,SaveService, DeleteService{
+public class ChildrenService implements ListService ,SaveService, DeleteService, UpdateService{
     @Autowired
     @Qualifier("childrenDao")
     private ChildrenDao childrenDao;
@@ -37,10 +34,6 @@ public class ChildrenService implements ListService ,SaveService, DeleteService{
         if (!StringUtil.isNullOrEmpty(query.getName())) {
             map.put("name", query.getName());
         }
-        if (!StringUtil.isNullOrEmpty(query.getName())) {
-            map.put("name", query.getName());
-        }
-
         List<Children> lists = childrenDao.lists(map);
         return lists;
     }
@@ -58,6 +51,15 @@ public class ChildrenService implements ListService ,SaveService, DeleteService{
         if (object instanceof  String){
             String cid = (String) object;
             childrenDao.delete(cid);
+        }
+        return null;
+    }
+
+    @Override
+    public Object update(Object object) {
+        if (object instanceof Children){
+            Children member = (Children) object;
+            childrenDao.update(member);
         }
         return null;
     }

@@ -19,4 +19,10 @@
         </if>
     </select>
 
+    <update id="update" parameterType="com.liangxunwang.unimanager.model.Member">
+        UPDATE ims_xhw_picvote_reg SET num=#{num}, dnum=#{dnum}, sharenum=#{sharenum}  WHERE id=#{id}
+    </update>
+
+
+
 </mapper>

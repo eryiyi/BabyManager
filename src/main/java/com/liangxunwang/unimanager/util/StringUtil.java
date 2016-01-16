@@ -222,4 +222,12 @@ public class StringUtil {
         matcherForTag.appendTail(sb);
         return sb.toString();
     }
+
+    public static int getIntMethod(int one , int two){
+        Double ione = (Double)(one + Math.random()*(two - one));
+        String doustr=""+ione;
+        String intes=doustr.substring(0,doustr.indexOf("."));
+        int i = Integer.parseInt(intes);
+        return i;
+    }
 }
