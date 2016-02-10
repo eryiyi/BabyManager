@@ -108,14 +108,12 @@ public class PiaoController extends ControllerConstants {
             new Thread(new Runnable() {
                 public void run() {
                     for(int i=0;i<Integer.parseInt(handnum);i++){
-                        //执行
-                        int ione = StringUtil.getIntMethod(Integer.parseInt(addone), Integer.parseInt(addtwo));//加
-                        int itwo = StringUtil.getIntMethod(Integer.parseInt(delone), Integer.parseInt(deltwo));//取消
-                        int ithree = StringUtil.getIntMethod(Integer.parseInt(addshareone), Integer.parseInt(addsharetwo));//人气
-                        if(ione >= itwo && ithree>0){
                             //去执行
                             if(listChildren != null){
                                 for(Children children : listChildren){
+                                    int ione = StringUtil.getIntMethod(Integer.parseInt(addone), Integer.parseInt(addtwo));//加
+                                    int itwo = StringUtil.getIntMethod(Integer.parseInt(delone), Integer.parseInt(deltwo));//取消
+                                    int ithree = StringUtil.getIntMethod(Integer.parseInt(addshareone), Integer.parseInt(addsharetwo));//人气
                                     Member member = new Member();
                                     member.setId(children.getCid());
                                     member.setNum(String.valueOf(Integer.parseInt(children.getNum()) + ione));
@@ -131,7 +129,6 @@ public class PiaoController extends ControllerConstants {
                                     childrenServiceUpdate.update(children);
                                 }
                             }
-                        }
                         Date now = new Date();
                         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//可以方便地修改日期格式
                         System.out.println("执行：----第" + String.valueOf(i+1)+"次----时间："+dateFormat.format(now));
